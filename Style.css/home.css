@@ -36,6 +36,10 @@ body {
     padding: 1rem;
 }
 
+#logo :hover {
+    color: lightgrey;
+}
+
 #gold_stream {
     color: #1F2833;
 }
@@ -51,6 +55,10 @@ body {
     color: #1F2833;
 }
 
+#profile_2 :hover {
+    color: lightgrey;
+}
+
 #nav_bar {
     display: flex;
     justify-content: center;
@@ -64,5 +72,96 @@ body {
     margin: 1rem;
 }
 
+.nav :hover {
+    color: lightgrey;
+}
 
+/* Sidebar Code */
+
+#side_list2 {
+    background-color: #1f283340; /* May Change color and transparency */
+    display: flex;
+    /*Places items in the center of the page to the left */
+    flex-direction: column;
+    /* Controls the height of the background */
+    height: 80vh;
+    justify-content: center;
+    /* Stops here */
+    gap: 8rem;
+    padding: 1rem;
+    margin: 1rem;
+    /* Shrinks the background to the size of the element(s) within it */
+    float: left;
+    /* Allows element to flow up and down with the screen */
+    position: fixed;
+}
+
+.side {
+    color: #0B0C10;
+}
+
+.side :hover {
+    color: lightgrey;
+}
+
+
+/* Container for welcome home */
+#empty {
+    margin: 12rem;
+}
+
+/* Welcome home code */
+
+h1 {
+    color: #66FCF1;
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+}
+
+/* Contains all movie rows*/
+
+#movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+/* Reveal button on the right */
+
+#reveal-button {
+    color: rgba(255, 255, 255, 0.833);
+    position: relative;
+    font-size: 60px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    /* moves element to the right and down to desired location */
+    float: right;
+    top: 85%;
+    padding: 1rem;
+
+}
+
+#reveal-button :hover {
+    background-color: rgba(0, 0, 0, 0.456);
+}
+
+/* First row of movies code */
+
+#row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+    overflow: hidden;
+    transition: transform 0.5 ease-in-out;
+}
+
+.rom {
+    display: flex;
+    margin: 4px;
+    transition: transform 0.5 ease-in-out;
+}
 
